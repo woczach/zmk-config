@@ -77,10 +77,10 @@
 
         layer_5 {
             bindings = <
-&kp NUMBER_1  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                              &trans  &trans    &trans  &trans
+&kp LS(NUMBER_1)      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp LS(LA(NUMBER_1))  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                                      &trans  &trans    &trans  &trans
             >;
         };
     };
