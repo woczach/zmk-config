@@ -78,7 +78,7 @@
         layer_5 {
             bindings = <
 &kp LS(NUMBER_1)      &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)     &trans  &trans  &trans  &trans  &trans
-&kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3)   &kp LS(LA(NUMBER_4)  & &kp LS(LA(NUMBER_5)   &trans  &trans  &trans  &trans  &trans
+&kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  & &kp LS(LA(NUMBER_5))   &trans  &trans  &trans  &trans  &trans
  &kp LS(Z)      &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)   &trans  &trans  &trans  &trans  &trans
                                       &trans  &trans    &trans  &trans
             >;
