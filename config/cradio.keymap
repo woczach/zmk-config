@@ -27,6 +27,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2 5 6>;
+        };
+
+        lp {
+            bindings = <&kp RS(LEFT_PARENTHESIS)>;
+            key-positions = <5 6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
