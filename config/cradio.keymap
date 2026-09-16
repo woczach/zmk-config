@@ -32,7 +32,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <1 2 5 6>;
+            key-positions = <1 2>;
         };
 
         lp {
