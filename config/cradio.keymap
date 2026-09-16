@@ -35,7 +35,7 @@
 &kp Q               &kp W       &kp E        &kp R            &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
 &ht LEFT_CONTROL A  &ht LALT S  &ht LCTRL D  &ht LSHIFT F     &kp G        &kp H      &ht RSHFT J  &ht RCTRL K  &ht RALT L  &ht RGUI SQT
 &kp Z               &kp X       &kp C        &kp V            &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                                             &lt 2 BACKSPACE  &lt 4 TAB    &kp ENTER  &lt 1 SPACE
+                                             &lt 2 BACKSPACE  &lt 5 TAB    &kp ENTER  &lt 1 SPACE
             >;
         };
 
@@ -77,9 +77,9 @@
 
         layer_5 {
             bindings = <
-&kp LS(NUMBER_1)      &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)     &trans  &trans  &trans  &trans  &trans
-&kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))   &trans  &trans  &trans  &trans  &trans
- &kp LS(Z)      &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)   &trans  &trans  &trans  &trans  &trans
+&kp LA(NUMBER_1)      &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)   &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)    &kp LA(LBKT) 
+&&kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))  &kp LA(LEFT))  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &kp LA(RBKT)   
+ &kp LA(Z)      &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(SQT)   &trans  &trans  &trans  &trans  &trans
                                       &trans  &trans    &trans  &trans
             >;
         };
