@@ -39,6 +39,11 @@
             bindings = <&kp RS(LEFT_PARENTHESIS)>;
             key-positions = <5 6>;
         };
+
+        tild {
+            bindings = <&kp TILDE>;
+            key-positions = <11 12>;
+        };
     };
 
     keymap {
@@ -95,6 +100,15 @@
 &kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))    &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &kp LA(RBKT)
 &kp LA(Z)             &kp LA(X)             &kp LA(C)             &kp LA(V)             &kp LA(SQT)             &trans        &trans        &trans      &trans         &kp LA(SEMICOLON)
                                                                   &trans                &trans                  &trans        &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
