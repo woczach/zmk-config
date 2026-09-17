@@ -31,6 +31,7 @@
         compatible = "zmk,combos";
 
         // ---- left hand ----
+
         combo_grave {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;    // W E
@@ -72,6 +73,7 @@
         };
 
         // ---- right hand ----
+
         combo_pgup {
             bindings = <&kp PG_UP>;
             key-positions = <5 6>;    // Y U
@@ -119,7 +121,7 @@
         default_layer {
             bindings = <
 &kp Q               &kp W       &kp E        &kp R            &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
-&ht LEFT_CONTROL A  &ht LALT S  &ht LCTRL D  &ht LSHIFT F     &lt 1 G      &lt 1 H    &ht RSHFT J  &ht RCTRL K  &ht RALT L  &ht RGUI SQT
+&ht LEFT_CONTROL A  &ht LALT S  &ht LCTRL D  &ht LSHIFT F     &lt 1 G      &lt 1 H    &ht RSHFT J  &ht RCTRL K  &ht RALT L  &ht RGUI SEMI
 &kp Z               &kp X       &kp C        &kp V            &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
                                              &lt 2 BACKSPACE  &lt 5 TAB    &kp ENTER  &lt 1 SPACE
             >;
