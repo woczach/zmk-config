@@ -30,19 +30,86 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <1 2>;
+        // ---- left hand ----
+        combo_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2>;    // W E
         };
 
-        lp {
-            bindings = <&kp RS(LEFT_PARENTHESIS)>;
-            key-positions = <5 6>;
-        };
-
-        tild {
+        combo_tilde {
             bindings = <&kp TILDE>;
-            key-positions = <11 12>;
+            key-positions = <11 12>;  // S D
+        };
+
+        combo_bslh {
+            bindings = <&kp BSLH>;
+            key-positions = <21 22>;  // X C
+        };
+
+        combo_home {
+            bindings = <&kp HOME>;
+            key-positions = <2 3>;    // E R
+        };
+
+        combo_end {
+            bindings = <&kp END>;
+            key-positions = <12 13>;  // D F
+        };
+
+        combo_esc {
+            bindings = <&kp ESC>;
+            key-positions = <3 4>;    // R T
+        };
+
+        combo_del {
+            bindings = <&kp DEL>;
+            key-positions = <13 14>;  // F G
+        };
+
+        combo_pscrn {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <23 24>;  // V B
+        };
+
+        // ---- right hand ----
+        combo_pgup {
+            bindings = <&kp PG_UP>;
+            key-positions = <5 6>;    // Y U
+        };
+
+        combo_pgdn {
+            bindings = <&kp PG_DN>;
+            key-positions = <15 16>;  // H J
+        };
+
+        combo_lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <6 7>;    // U I
+        };
+
+        combo_rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <7 8>;    // I O
+        };
+
+        combo_lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <16 17>;  // J K
+        };
+
+        combo_rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <17 18>;  // K L
+        };
+
+        combo_lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <26 27>;  // M ,
+        };
+
+        combo_rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <27 28>;  // , .
         };
     };
 
